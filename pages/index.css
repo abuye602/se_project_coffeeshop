@@ -125,7 +125,7 @@
   background-color: #0A2750;
 }
 
-.recipes__title {
+.recipe__title {
   max-width: 580px;
   padding-bottom: 24px;
   margin: 0;
@@ -138,7 +138,7 @@
 
 }
 
-.recipes__subtitle {
+.recipe__subtitle {
   max-width: 438px;
   padding-bottom: 80px;
   margin: 0;
@@ -159,12 +159,12 @@
 
 }
 
-.recipes__iframe {
+.recipe__iframe {
   width: 480px;
   height: 273px;
 }
 
-.recipes__video-caption {
+.recipe__video-caption {
     display: flex;
     justify-content: space-between;
     font-family: "Inter";
