@@ -257,7 +257,7 @@
   padding: 32px 0 0;
 }
 
-.form__input_checkbox {
+.form__input__checkbox {
   border-radius: 2px;
   background: #2F80ED;
   height: 20px;
