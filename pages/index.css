@@ -354,9 +354,8 @@
   color: white;
   position: relative;
   overflow: hidden;
-  min-height: 720px;
-  max-height: 8000px;
-  height: 100vh;
+  display: flex;
+  justify-content: space-between;
 }
 
 .about__title {
@@ -378,15 +377,17 @@
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;
-  /*margin-bottom: 119px 80px 173px;*/
-  padding-bottom: 173px;
-  position: absolute;
-  right: 80px;
-  top: 119px;
+  margin: 119px 80px 173px auto;
+  position: relative;
 
 }
 
 .about__paragraph {
+  margin-top: 0;
+}
+
+.about__paragraph:last-of-type {
+  margin: 0;
 }
 
 .about__circle {
@@ -416,7 +417,6 @@
   width: 105px;
   height: 39px;
 }
-`
 .footer__contents_social {
   margin-left: auto;
 }
