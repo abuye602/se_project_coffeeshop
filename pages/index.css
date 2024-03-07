@@ -11,6 +11,7 @@
 }
 
 .header {
+  background-image: url(../images/background_header.svg);
   padding: 30px 80px 40px;
   min-height: 720px;
   max-height: 800px;
@@ -123,6 +124,7 @@
 .recipes {
   padding: 100px 80px 215px;
   background-color: #0A2750;
+  background-image: url("../images/background_recipes.svg");
 }
 
 .recipes__title {
@@ -175,6 +177,7 @@
 }
 
 .reservation {
+  background-image: url(../images/background_reservation.svg);
   min-height: 720px;
   max-height: 1000px;
   height: 200vh;
@@ -268,4 +271,205 @@
 
 .form__input::placeholder {
   color: #838383;
+}
+
+.menu {
+  background-image: url(../images/background_menu.svg);
+  padding: 100px 0 100px;
+  margin: auto;
+
+}
+
+.menu__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  text-align: center;
+  margin: 0 auto 24px;
+  max-width: 780px;
+}
+
+.menu__subtitle {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 auto 100px;
+  max-width: 850px;
+}
+
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.card {
+  list-style-type: none;
+  width: 540px;
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 32px;
+}
+
+.card__list {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card__list-item {
+  display: flex;
+  margin-bottom: 16px;
+  gap: 10;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 1.75;
+  gap: 10px;
+}
+
+.about {
+  background-color: #0A2850;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  min-height: 720px;
+  max-height: 8000px;
+  height: 100vh;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 1;
+  position: relative;
+  max-width: 251px;
+  margin: 100px 0 0 80px;
+}
+
+.about__content {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 660px;
+  /*margin-bottom: 119px 80px 173px;*/
+  padding-bottom: 173px;
+  position: absolute;
+  right: 80px;
+  top: 119px;
+
+}
+
+.about__paragraph {
+}
+
+.about__circle {
+  background-color: rgb(47, 128, 237);
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+
+}
+.footer {
+  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  list-style-type: none;
+
+}
+.footer__content {
+  color: white;
+  display: flex;
+  padding: 60px 80px 0;
+
+}
+
+.footer__logo {
+  padding: 0;
+  width: 105px;
+  height: 39px;
+}
+`
+.footer__contents_social {
+  margin-left: auto;
+}
+
+.footer__social-heading {
+  padding: 0 0 20px;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+  padding: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.footer__list-item:last-of-type {
+  margin: 0;
+}
+
+.footer__social-icon {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__icon {
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
+}
+
+.footer__copyright {
+  color: white;
+  margin: 0;
+  padding: 108px 0 60px 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
