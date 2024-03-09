@@ -1,0 +1,67 @@
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
+
+.about {
+  background-color: #0A2850;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  z-index: 1;
+  position: relative;
+  max-width: 251px;
+  margin: 100px 0 0 80px;
+}
+
+.about__content {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 660px;
+  margin: 119px 80px 173px auto;
+  position: relative;
+}
+
+.about__paragraph {
+  margin-top: 0;
+}
+
+.about__paragraph:last-of-type {
+  margin: 0;
+}
+
+.about__circle {
+  background-color: rgb(47, 128, 237);
+  width: 426px;
+  height: 426px;
+  border-radius: 50%;
+  position: absolute;
+  top: -152px;
+  left: -129px;
+  opacity: 1;
+}
+
+.about__circle_animation_blurred {
+  animation: pulse 1.3s ease-in-out 0s infinite;
+}
