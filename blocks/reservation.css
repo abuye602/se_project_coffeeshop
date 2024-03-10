@@ -1,8 +1,5 @@
 .reservation {
   background-image: url(../images/background_reservation.svg);
-  min-height: 720px;
-  max-height: 1000px;
-  height: 200vh;
   background-color: #D9E7FF;
 
 }

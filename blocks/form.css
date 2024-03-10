@@ -64,6 +64,10 @@
   right: 12px;
 }
 
+.form__input_type_checkbox:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, .1);
+}
+
 .form__input::placeholder {
   color: #838383;
 }
