@@ -14,7 +14,7 @@
   padding: 60px 80px 0;
 }
 
-.footer__contents_social {
+.footer__social {
   margin-left: auto;
 }
 
@@ -58,7 +58,7 @@
   color: gray;
 }
 
-.footer__icon {
+.footer__social-icon {
   height: 16px;
   width: 16px;
   padding-right: 10px;
