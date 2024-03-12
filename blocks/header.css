@@ -73,10 +73,6 @@
 
 .header__paragraph{
   margin: 0;
-}
-
-.header__paragraphs {
-  margin-bottom:0;
-  margin-top: 40px;
   z-index: 1;
+  align-self: flex-end;
 }
