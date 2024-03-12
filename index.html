@@ -7,7 +7,6 @@
     <meta name="description" content="Coffee Shop Landing Page" />
     <meta name="author" content="Software Engineer" />
     <meta name="keywords" content="HTML, CSS" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
     <link rel="stylesheet" href="pages/index.css" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <title>Coffee Shop</title>
@@ -24,7 +23,7 @@
         <nav class="nav">
           <img src="./images/logo_coffeeshop_dark.svg"
            alt="Coffeeshop Logo"
-           class="nav__log"/>
+           class="nav__logo"/>
             <ul class="nav__links">
               <li><a href="#recipes" class="nav__link">Recipes</a></li>
               <li><a href="#reservation" class="nav__link">Book a table</a></li>
@@ -76,32 +75,28 @@
           <h2 class="reservation__title">Book a table</h2>
             <form class="reservation__form form">
               <fieldset class="form__fieldset">
-                <label for="name" class="form__label">Name *</label>
-                <input type="text" class="form__input" id="name" placeholder="Name Surname"/>
-              </fieldset>
+                <label for="name" class="form__label">
+                  Name *<input type="text" class="form__input" id="name" placeholder="Name Surname"/>
+                </label>
 
-              <fieldset class="form__fieldset">
-                <label for="Number" class="form__label">Number of guests *</label>
-                <input type="text" class="form__input" id="Number" placeholder="1-8"/>
-              </fieldset>
+                <label for="Number" class="form__label">
+                  Number of guests *<input type="text" class="form__input" id="Number" placeholder="1-8"/>
+                </label>
 
-              <fieldset class="form__fieldset">
-                <label class="form__label">Date & time *</label>
-                <input type="datetime-local" class="form__input" />
-              </fieldset>
+                <label for="Datetime" class="form__label">
+                  Date & time *<input type="datetime-local" id="Datetime" class="form__input" />
+                </label>
 
-              <fieldset class="form__fieldset">
-                <label class="form__label">Your email *</label>
-                <input type="text" class="form__input" placeholder="email@email.com"/>
-              </fieldset>
+                <label for="Email" class="form__label">
+                  Your email *<input type="text" class="form__input" id="Email" placeholder="email@email.com"/>
+                </label>
 
-              <fieldset class="form__fieldset form__fieldset_type_submit">
+              </fieldset>
                 <button type="submit" class="form__button">Book a table</button>
-                <label for="check-the-box" class="form__label form__label_type_checkbox">
-                  <input id="check-the-box" class="form__input form__input_type_checkbox" type="checkbox">
+                <label for="check-the-box" class="form__label_type_checkbox">
+                  <input type="checkbox" class="form__checkbox" id="check-the-box">
                   I agree with the term of use
                 </label>
-              </fieldset>
             </form>
         </section>
         <section class="menu" id="menu">
@@ -158,15 +153,15 @@
             <div class="footer__contents">
               <img src="./images/logo_coffeeshop_light.svg" alt="Expresso logo" class="footer__logo">
             </div>
-            <div class="footer__contents footer__contents_social">
+            <div class="footer__contents_social">
               <h3 class="footer__social-heading">Social media</h3>
                 <ul class="footer__list">
                   <li class="footer__list-item">
-                    <a href="#" class="footer__social-icon">
-                    <img src="./images/facebook_white.svg" alt="Facebook logo" class="footer__social-icon footer__icon">Facebook</a>
+                    <a href="#" class="footer__social-link">
+                    <img src="./images/facebook_white.svg" alt="Facebook logo" class="footer__icon">Facebook</a>
                   </li>
                   <li class="footer__list-item">
-                   <a href="#" class="footer__social-icon">
+                   <a href="#" class="footer__social-link">
                     <img src="./images/instagram_white.svg" alt="Instagram logo" class="footer__icon">Instagram</a>
                   </li>
                 </ul>

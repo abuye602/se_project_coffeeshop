@@ -1,11 +1,9 @@
 .footer {
   background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
   list-style-type: none;
-
 }
 
 .footer__logo {
-  padding: 0;
   width: 105px;
   height: 39px;
 }
@@ -51,12 +49,12 @@
   margin: 0;
 }
 
-.footer__social-icon {
+.footer__social-link {
   color: white;
   text-decoration: none;
 }
 
-.footer__social-icon:hover {
+.footer__social-link:hover {
   color: gray;
 }
 

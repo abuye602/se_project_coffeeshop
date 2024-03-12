@@ -26,7 +26,11 @@
 .card__list-item {
   display: flex;
   margin-bottom: 16px;
-  gap: 10;
+  gap: 10px;
+}
+
+.card__list-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .card__list-divider {
