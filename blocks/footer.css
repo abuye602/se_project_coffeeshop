@@ -52,6 +52,8 @@
 .footer__social-link {
   color: white;
   text-decoration: none;
+  opacity: 100%;
+  transition: opacity 0.3s linear
 }
 
 .footer__social-link:hover {
